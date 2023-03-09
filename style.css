@@ -1,0 +1,44 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'kanit';
+    background: url('laptop.jpg')  no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+     
+    
+}
+.container{
+    margin-top: 10rem;
+}
+
+.buffer{
+    height: 10rem;
+}
+h3{
+    transform: skewY(5deg);
+    color: aliceblue;
+}
+.btn-primary:hover{
+    /* background-color: rgb(195, 124, 10); */
+    background-color: rgb(223, 86, 51);
+    color: rgb(120, 17, 17);
+    border-width: 5px;
+    
+}
+.btn-primary{
+    background-color: rgb(223, 86, 51);
+    border-color:  rgb(223, 86, 51);
+}
+.btn{
+    font-size: larger;
+    border-radius: 3em;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
